@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "course-project",
+=======
+  "name": "shoppingcart",
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,6 +23,10 @@
     "@angular/platform-browser": "~7.1.0",
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
+<<<<<<< HEAD
+=======
+    "bootstrap": "^3.4.0",
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",

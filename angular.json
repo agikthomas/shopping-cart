@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "course-project": {
+=======
+    "shoppingcart": {
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/course-project",
+=======
+            "outputPath": "dist/shoppingcart",
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,8 +31,13 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "../node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
+=======
+              "src/styles.css",
+              "../shoppingcart/node_modules/bootstrap/dist/css/bootstrap.min.css"
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             ],
             "scripts": []
           },
@@ -58,18 +71,30 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "course-project:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "course-project:build:production"
+=======
+            "browserTarget": "shoppingcart:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "shoppingcart:build:production"
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "course-project:build"
+=======
+            "browserTarget": "shoppingcart:build"
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
           }
         },
         "test": {
@@ -103,7 +128,11 @@
         }
       }
     },
+<<<<<<< HEAD
     "course-project-e2e": {
+=======
+    "shoppingcart-e2e": {
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -112,11 +141,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
+<<<<<<< HEAD
             "devServerTarget": "course-project:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "course-project:serve:production"
+=======
+            "devServerTarget": "shoppingcart:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "shoppingcart:serve:production"
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             }
           }
         },
@@ -132,5 +169,9 @@
       }
     }
   },
+<<<<<<< HEAD
   "defaultProject": "course-project"
+=======
+  "defaultProject": "shoppingcart"
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
 }

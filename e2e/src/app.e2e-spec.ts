@@ -9,6 +9,10 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+<<<<<<< HEAD
     expect(page.getTitleText()).toEqual('Welcome to course-project!');
+=======
+    expect(page.getTitleText()).toEqual('Welcome to shoppingcart!');
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
   });
 });

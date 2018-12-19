@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # CourseProject
+=======
+# Shoppingcart
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 
