@@ -17,15 +17,21 @@ describe('AppComponent', () => {
   });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   it(`should have as title 'course-project'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('course-project');
 =======
+=======
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
   it(`should have as title 'shoppingcart'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('shoppingcart');
+<<<<<<< HEAD
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
+=======
 >>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
   });
 
@@ -34,7 +40,11 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(compiled.querySelector('h1').textContent).toContain('Welcome to course-project!');
+=======
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to shoppingcart!');
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
 =======
     expect(compiled.querySelector('h1').textContent).toContain('Welcome to shoppingcart!');
 >>>>>>> c1244806719fe4efa96fe68643c351c50148beb6

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # CourseProject
+=======
+# Shoppingcart
+>>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
 =======
 # Shoppingcart
 >>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
