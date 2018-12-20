@@ -3,15 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "course-project": {
-=======
     "shoppingcart": {
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-=======
-    "shoppingcart": {
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -21,15 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "outputPath": "dist/course-project",
-=======
             "outputPath": "dist/shoppingcart",
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-=======
-            "outputPath": "dist/shoppingcart",
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -39,18 +23,8 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
-=======
               "src/styles.css",
               "../shoppingcart/node_modules/bootstrap/dist/css/bootstrap.min.css"
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-=======
-              "src/styles.css",
-              "../shoppingcart/node_modules/bootstrap/dist/css/bootstrap.min.css"
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             ],
             "scripts": []
           },
@@ -84,40 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "browserTarget": "course-project:build"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "course-project:build:production"
-=======
-=======
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             "browserTarget": "shoppingcart:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "shoppingcart:build:production"
-<<<<<<< HEAD
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-=======
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "browserTarget": "course-project:build"
-=======
             "browserTarget": "shoppingcart:build"
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-=======
-            "browserTarget": "shoppingcart:build"
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
           }
         },
         "test": {
@@ -151,15 +103,7 @@
         }
       }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "course-project-e2e": {
-=======
     "shoppingcart-e2e": {
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-=======
-    "shoppingcart-e2e": {
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -168,25 +112,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "devServerTarget": "course-project:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "course-project:serve:production"
-=======
-=======
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             "devServerTarget": "shoppingcart:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "shoppingcart:serve:production"
-<<<<<<< HEAD
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-=======
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
             }
           }
         },
@@ -202,13 +132,5 @@
       }
     }
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "defaultProject": "course-project"
-=======
   "defaultProject": "shoppingcart"
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-=======
-  "defaultProject": "shoppingcart"
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
 }

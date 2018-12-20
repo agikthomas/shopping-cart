@@ -1,25 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-
-@NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent
-  ],
-  imports: [
-    BrowserModule
-=======
-=======
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-import { FormsModule } from '@angular/forms';
-
-import { HeaderComponent } from './header/header.component';
-
 import { AppComponent } from './app.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
@@ -27,7 +8,7 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
-
+import {FormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,10 +23,6 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
   imports: [
     BrowserModule,
     FormsModule
-<<<<<<< HEAD
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
-=======
->>>>>>> c1244806719fe4efa96fe68643c351c50148beb6
   ],
   providers: [],
   bootstrap: [AppComponent]
